@@ -22,3 +22,7 @@ print(train.shipping.describe())
 
 print('=== train.shipping.mean() ===')
 print(train.shipping.mean())
+print(train['shipping'].value_counts())
+
+print('=== category_name value_counts ===')
+print(train['category_name'].value_counts()[:5])
